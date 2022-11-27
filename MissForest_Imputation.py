@@ -21,4 +21,5 @@ steel_data = pd.read_csv(url)
 mf = MissForest()
 print(mf.fit_transform(steel_data))    # Prints the imputed data set 
 
-mf.fit_transform(steel_data).to_csv('Imputed Data Set', sep='\t', encoding='utf-8')
+# Export the imputed data set into a CSV file (each run will provide new imputations)
+# mf.fit_transform(steel_data).to_csv('Imputed Data Set', sep='\t', encoding='utf-8')
