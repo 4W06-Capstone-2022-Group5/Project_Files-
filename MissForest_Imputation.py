@@ -22,4 +22,4 @@ mf = MissForest()
 print(mf.fit_transform(steel_data))    # Prints the imputed data set 
 
 # Export the imputed data set into a CSV file (each run will provide new imputations)
-# mf.fit_transform(steel_data).to_csv('Imputed Data Set', sep='\t', encoding='utf-8')
+# mf.fit_transform(steel_data).to_csv('MissForest_30P-Removed.csv', sep='\t', encoding='utf-8')
