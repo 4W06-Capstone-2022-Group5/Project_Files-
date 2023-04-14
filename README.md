@@ -4,7 +4,7 @@ A repository to contain all project files for Capstone Group 5. The following is
 ## Datasets 
 This folder contains all datasets used for testing purposes. Included are the original datasets, the datasets with 30%, 50%, 70%, and 90% missing values from the defining properties, and the imputed datasets using each of the methods. Each imputed datset contains a final sheet containing error metrics obtained from the imputation as compared to the original dataset. 
 
-## Imputation Algorithm
+## Final Imputation Algorithms
 This folder contains the following files of interest: 
   1. final_imputation.py
       - This file defines a function named "final_imputation.py" which accepts a dataset (structured as a python dataframe) which has a given number of physical    properties containing missing values (must be located at the end columns of the dataset). 
